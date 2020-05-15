@@ -1,5 +1,5 @@
 channels:
-- currentCSV: service-binding-operator.v0.1.1-295
+- currentCSV: service-binding-operator.v0.1.1-296
   name: alpha
 defaultChannel: alpha
 packageName: service-binding-operator
