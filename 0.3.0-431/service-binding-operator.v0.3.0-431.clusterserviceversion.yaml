@@ -31,8 +31,8 @@ metadata:
       ]
     capabilities: Basic Install
     categories: Developer Tools, OpenShift Optional, Integration & Delivery
-    containerImage: quay.io/redhat-developer/app-binding-operator:596cd27
-    createdAt: 2020-11-18T21:10:22Z
+    containerImage: quay.io/redhat-developer/app-binding-operator:8361cdb
+    createdAt: 2020-11-18T22:41:19Z
     description: An operator to support binding capabilities between imported apps
       and operator backed services
     repository: https://github.com/redhat-developer/service-binding-operator
@@ -95,7 +95,7 @@ spec:
                       fieldPath: metadata.name
                 - name: OPERATOR_NAME
                   value: service-binding-operator
-                image: quay.io/redhat-developer/app-binding-operator:596cd27
+                image: quay.io/redhat-developer/app-binding-operator:8361cdb
                 imagePullPolicy: Always
                 name: service-binding-operator
                 resources: {}
